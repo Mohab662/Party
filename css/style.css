@@ -1,0 +1,156 @@
+ul li{
+    list-style: none;
+    font-size: 20px !important;
+}
+.gray-col{
+    color: #777777;
+}
+.red-col{
+    color: RGB(214, 46, 51);
+}
+.fs-30{
+    font-size: 30px !important;
+}
+.fs-60{
+    font-size: 60px !important;
+    font-weight: 500 !important;
+    color: aliceblue;
+}
+.fs-16{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 45px;
+  cursor: pointer;
+    
+}
+.nav-text{
+    transition: 0.5s;
+}
+.nav-text:hover{
+    color: RGB(214, 46, 51) !important;
+}
+.close-btn{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.main-text{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+
+}
+#links{
+    margin-left: -120px;
+    transform: translateY(40%);
+
+}
+#links a{
+    margin-bottom: 30px;
+
+}
+.open-nav{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    margin-left: 6px;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+#side-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 0px;
+    background-color: RGB(17, 17, 17);
+}
+
+#main-section{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(
+        rgba(230, 0, 0, 0.45), 
+        rgba(230, 0, 0, 0.45)
+      ),
+      url(../images/events-heavenly-header.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+.sec2{
+    width: 50%;
+    
+}
+.sec2 >h3{
+    background-color: rgb(230,130,133);
+    cursor: pointer;
+    color: aliceblue;
+
+}
+.sec2 >p{
+    background-color: rgb(204,204,204);
+
+
+}
+
+#duration{
+    background-image:linear-gradient(
+        rgba(230, 0, 0, 0.45), 
+        rgba(230, 0, 0, 0.45)
+      ),url(../images/invitation-2508607__340.jpg);
+    color: aliceblue;
+    background-size: 100% 100%;
+    position: relative;
+    min-height:330px;
+    z-index: -1;
+
+}
+
+.time>div>h3{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px !important;
+}
+
+
+
+.social-icons>div{
+    border: 1px #777777 solid;
+    padding: 7px 12px;
+    margin-right: 10px;
+}
+.social-icons>div:hover{
+    border: 1px RGB(214, 46, 51) solid;
+    background-color: RGB(214, 46, 51);
+    color:aliceblue;
+    cursor: pointer;
+
+}
+
+.send-btn{
+    background-color: RGB(214, 46, 51) !important;
+    outline: none !important;
+    border: none;
+    padding: 12px 30px;
+    color: aliceblue;
+}
+.send-btn:hover{
+    background-color: RGBA(214, 46, 51,0.9) !important;
+}
